@@ -16,12 +16,8 @@ module.exports = {
       name: '♻️  refactor:\tCode change that neither fixes a bug nor adds a feature',
     },
     {
-      value: ':boom: fix',
-      name: '💥 fix:\t A fix that add some breaking changes',
-    },
-    {
-      value: ':boom: feat',
-      name: '💥 feat:\t A feat that add some breaking changes',
+      value: ':pushpin: chore',
+      name: '📌 chore:\t Pin dependencies to specific versions.',
     },
     {
       value: ':zap: perf',
@@ -44,6 +40,14 @@ module.exports = {
     {
       value: ':green_heart: ci',
       name: '💚 ci:\tAdd or update regards to build process',
+    },
+    {
+      value: ':boom: feat',
+      name: '💥 feat:\t A feat that introduced breaking changes',
+    },
+    {
+      value: ':boom: fix',
+      name: '💥 fix:\t A fix that introduced breaking changes',
     },
   ],
 

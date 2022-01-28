@@ -1,0 +1,38 @@
+{
+  "name": "better-commits",
+  "version": "1.0.0",
+  "description": "This npm package manages the commit linting and other developer stuffs for the repo",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install",
+    "cm": "cz"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-customizable"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinicioslc/better-commits.git"
+  },
+  "keywords": [
+    "commitlint",
+    "ci",
+    "test"
+  ],
+  "author": "vinicioslc@outlook.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinicioslc/better-commits/issues"
+  },
+  "homepage": "https://github.com/vinicioslc/better-commits#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^16.1.0",
+    "commitizen": "^4.2.4",
+    "commitlint-config-gitmoji": "^2.2.5",
+    "cz-customizable": "^6.3.0",
+    "husky": "^7.0.0"
+  }
+}
